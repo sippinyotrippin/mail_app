@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM fully loaded!');
 
   // Use buttons to toggle between views
   document.querySelector('#inbox').addEventListener('click', () => load_mailbox('inbox'));
@@ -40,20 +39,42 @@ function load_mailbox(mailbox) {
     .then(response => response.json())
     .then(emails => {
         emails.forEach(singleEmail => {
+          
 
           console.log(singleEmail);
 
           const new_email = document.createElement('div');
+          
           new_email.innerHTML = `
-            <h5>From: ${singleEmail.sender}</h5>
-            <h5>To: ${singleEmail.recipients}</h5>
-            <h5>Subject: ${singleEmail.subject}</h5>
-            <h5>Timestamp: ${singleEmail.timestamp}</h5>
-            <br>
+              <a href="#" id="link_selection" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1" style="font-weight: bold";>${singleEmail.sender}</h5>
+                <small>${singleEmail.timestamp}</small>
+              </div>
+              <p class="mb-1">To: ${singleEmail.recipients}</p>
+              <small>${singleEmail.subject}</small>
+            </a>
           `;
+        
           new_email.addEventListener('click', function() {
-            console.log('This element has been clicked!')
+            if (mailbox === 'inbox')
+              fetch(`/emails/${singleEmail.id}`, {
+                method: 'PUT',
+                body: JSON.stringify({
+                  read: true
+                })
+              })
+            
+            location.reload();
           });
+          
+          if (singleEmail.read) {
+            new_email.classList.add('isread')
+          }
+          else {
+            new_email.classList.add('unread')
+          }
+
           document.querySelector("#emails-view").append(new_email);
 
         })
@@ -83,4 +104,3 @@ function send_email() {
   });
   
 }
-
