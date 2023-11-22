@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fedaa8-ab84-4ced-bfc3-c5a88a337d3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/static/mail/inbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/static/mail/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/templates/mail/inbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/templates/mail/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/templates/mail/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/templates/mail/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="07fedaa8-ab84-4ced-bfc3-c5a88a337d3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,14 +21,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/media/blade4breakfast/18700bf6-13d3-4733-a8d2-e6b0807765f0/home/sippinyotrippin/CS50_WebDevelopmentWithPythonJavaScript/Project_2/auction_website/commerce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/blade4breakfast/18700bf6-13d3-4733-a8d2-e6b0807765f0/home/sippinyotrippin/CS50_WebDevelopmentWithPythonJavaScript/Project_2/auction_website/commerce&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
