@@ -9,3 +9,8 @@ textarea {
 .unread > a {
     background-color: white;
 }
+
+ul.list-group {
+    list-style: none; /* Убираем маркеры (bullet points) у списка */
+    padding: 0; /* Убираем отступы у списка */
+}
